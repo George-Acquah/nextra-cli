@@ -1,0 +1,33 @@
+{
+  "name": "nextra-cli",
+  "version": "0.1.0",
+  "bin": {
+    "nextra": "./bin/nextra.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.6.2",
+    "@types/node-fetch": "^2.6.13",
+    "@types/prompts": "^2.4.9",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "extract-zip": "^2.0.1",
+    "fs-extra": "^11.3.2",
+    "node-fetch": "^3.3.2",
+    "ora": "^6.3.1",
+    "prompts": "^2.4.2"
+  }
+}
