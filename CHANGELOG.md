@@ -1,24 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-This project follows a simple, minimal changelog template. Replace or expand sections as needed.
+### 0.1.3 (2025-10-04)
 
-## [Unreleased]
 
-### Added
+### Features
 
--
+* Initiated nextra-cli to git ([6838b1f](https://github.com/George-Acquah/nextra-cli/commit/6838b1f3c834e413e1a51a1637ee6624019c029c))
 
-### Changed
+### 0.1.2 (2025-10-04)
 
--
 
-### Fixed
+### Features
 
--
+* Initiated nextra-cli to git ([6838b1f](https://github.com/George-Acquah/nextra-cli/commit/6838b1f3c834e413e1a51a1637ee6624019c029c))
 
----
+### 0.1.1 (2025-10-04)
+
+
+### Features
+
+* Initiated nextra-cli to git ([6838b1f](https://github.com/George-Acquah/nextra-cli/commit/6838b1f3c834e413e1a51a1637ee6624019c029c))
 
 ## [0.0.0] - YYYY-MM-DD
 
