@@ -17,7 +17,7 @@ Thanks for considering contributing! This document explains the recommended work
 2. Create a new branch for your work: `git checkout -b fix/short-description`.
 3. Implement your change with clear commits.
 4. Run tests and linters locally.
-5. Open a PR from your branch to `main` (or the repository's default branch).
+5. Open a PR from your branch to `main`
 
 ## Branching and PR workflow
 
@@ -33,7 +33,7 @@ Thanks for considering contributing! This document explains the recommended work
 npm install
 ```
 
-- Build (if applicable):
+- Build
 
 ```powershell
 npm run build
@@ -79,10 +79,5 @@ By participating in this project, you agree to follow the repository's code of c
 
 ---
 
-If you'd like, I can also:
-
-- Add a `CODE_OF_CONDUCT.md` file.
-- Add a sample `release-drafter` GitHub Actions workflow.
-- Create a `ISSUE_TEMPLATE` and `PULL_REQUEST_TEMPLATE` in `.github/`.
 
 Tell me which you'd prefer and I'll add them.
