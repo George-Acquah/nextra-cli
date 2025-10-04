@@ -17,8 +17,11 @@ jobs:
           node-version: "18"
           cache: 'pnpm'
       
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8 # Recommended pnpm version
+          run_install: false
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -28,9 +31,8 @@ jobs:
 
       - name: Run tests
         run: |
-          # Check if the 'test' script exists before attempting to run it
           if pnpm test >/dev/null 2>&1; then
-            pnpm test # 💡 Changed to pnpm
+            pnpm test
           else
             echo "No test script defined; skipping tests"
           fi
