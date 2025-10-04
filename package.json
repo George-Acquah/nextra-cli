@@ -1,6 +1,6 @@
 {
   "name": "nextra-cli",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "bin": {
     "nextra": "./dist/cli.js"
   },
