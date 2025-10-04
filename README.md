@@ -1,6 +1,6 @@
 # Nextra CLI
 
-[![npm version](https://img.shields.io/npm/v/nextra-cli.svg)](https://www.npmjs.com/package/nextra-cli) [![build](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions) [![license](https://img.shields.io/github/license/OWNER/REPO.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/nextra-cli.svg)](https://www.npmjs.com/package/nextra-cli) [![npm downloads](https://img.shields.io/npm/dm/nextra-cli.svg)](https://www.npmjs.com/package/nextra-cli) [![build](https://github.com/George-Acquah/nextra-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/George-Acquah/nextra-cli/actions) [![release](https://img.shields.io/github/v/release/George-Acquah/nextra-cli.svg)](https://github.com/George-Acquah/nextra-cli/releases/latest) [![license](https://img.shields.io/github/license/George-Acquah/nextra-cli.svg)](LICENSE)
 
 A small, focused command-line tool to scaffold and customize Nextra-based projects and feature apps quickly. It downloads templates, copies files into a target directory, and intelligently patches shared configuration (package.json, tsconfig.json, ESLint) so feature-level apps and monorepos get sensible defaults.
 
@@ -106,7 +106,3 @@ Specify your license in the repository root (for example, `LICENSE` file). If yo
 Add maintainer information or preferred contact channels here (GitHub issues, emails, etc.).
 
 ---
-
-## Note about badges
-
-The badges above are examples. Replace `github.com/George-Acquah` with your GitHub repository owner and name (for example `George-Acquah/nextra-cli`) to enable the build and license badges to work correctly. The npm badge points to the `nextra-cli` package on npm; if your package uses a different name, update the npm badge URL accordingly.
