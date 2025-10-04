@@ -12,20 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18"
-          cache: 'pnpm'
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
           version: 8 # Specify pnpm version
           run_install: false
           
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: 'pnpm' # Now the caching logic runs correctly
+
       - name: Install dependencies
-        # pnpm is now available for execution
+        # This step uses pnpm for dependency installation and cache restoration
         run: pnpm install --frozen-lockfile
 
       - name: Type check
