@@ -2,7 +2,7 @@
   "name": "nextra-cli",
   "version": "0.1.4",
   "bin": {
-    "nextra": "./bin/nextra.js"
+    "nextra": "./dist/cli.js"
   },
   "type": "module",
   "scripts": {
@@ -10,10 +10,23 @@
     "build": "tsc",
     "release": "standard-version --infile CHANGELOG.md"
   },
-  "keywords": [],
-  "author": "",
+  "files": [
+  "dist",
+  "package.json"
+],
+  "keywords": [
+  "nextra",
+  "cli",
+  "scaffolding",
+  "template",
+  "bootstrap",
+  "nextjs",
+  "react",
+  "typescript"
+],
+  "author": "George Acquah",
   "license": "ISC",
-  "description": "",
+  "description": "CLI for bootstrapping Nextra templates.",
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.6.2",
