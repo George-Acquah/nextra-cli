@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/George-Acquah/nextra-cli/compare/v0.1.4...v0.1.5) (2025-10-04)
+
+
+### Bug Fixes
+
+* **release:** correct changelog path and unify string quotes ([790b23a](https://github.com/George-Acquah/nextra-cli/commit/790b23a24fb44719435027e27bbd4e74151f3f3d))
+
 ### [0.1.4](https://github.com/George-Acquah/nextra-cli/compare/v0.1.3...v0.1.4) (2025-10-04)
 
 ### 0.1.3 (2025-10-04)
